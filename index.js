@@ -9,8 +9,8 @@ var twitter = new Twitter({
 var Nightmare = require('nightmare');
 var nightmare = Nightmare({
   show: false,
-  width: 1024,
-  height: 768
+  width: 2048,
+  height: 1536
 });
 var fs = require('fs');
 
