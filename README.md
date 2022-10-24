@@ -1,19 +1,15 @@
 # tenkikun
-天気情報をGoogle検索してつぶやくぞ
+天気情報をつぶやくぞ
 ## Setup
 ```
 npm install
 ```
-config.json
+.env
 ```:json
-{
-  "consumer_key": "...",
-  "consumer_secret": "...",
-  "access_token_key": "...",
-  "access_token_secret": "..."
-}
+SLACK_TOKEN=xoxb-YOUR-SLACK-TOKEN
+SLACK_CHANNEL=CYOURCHANNELID
 ```
 ## Run
 ```
-node index.js
+npm start
 ```
