@@ -1,15 +1,16 @@
 {
   "name": "tenkikun",
-  "version": "1.0.0",
+  "version": "2.0.0",
   "description": "",
   "main": "index.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "start": "set -a; source .env; set +a; node index.js"
   },
   "author": "",
-  "license": "ISC",
+  "license": "MIT",
   "dependencies": {
-    "nightmare": "^2.10.0",
-    "twitter": "^1.7.1"
+    "@slack/socket-mode": "^1.3.1",
+    "@slack/web-api": "^6.7.2",
+    "puppeteer": "^19.1.0"
   }
 }
